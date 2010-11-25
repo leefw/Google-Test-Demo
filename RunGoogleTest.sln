@@ -1,17 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BaseCode", "BaseCode\BaseCode.vcproj", "{F6F9E130-356C-4AE9-AC1A-9FA3D1180419}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BaseCode", "BaseCode\BaseCode.vcxproj", "{F6F9E130-356C-4AE9-AC1A-9FA3D1180419}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RunBaseCode", "RunBaseCode\RunBaseCode.vcproj", "{E2451389-49ED-4FD3-B4D6-95428B3CB005}"
-	ProjectSection(ProjectDependencies) = postProject
-		{F6F9E130-356C-4AE9-AC1A-9FA3D1180419} = {F6F9E130-356C-4AE9-AC1A-9FA3D1180419}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RunBaseCode", "RunBaseCode\RunBaseCode.vcxproj", "{E2451389-49ED-4FD3-B4D6-95428B3CB005}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestBaseCode", "TestBaseCode\TestBaseCode.vcproj", "{9036DACE-E5E4-480B-9EFE-036FB9B8A081}"
-	ProjectSection(ProjectDependencies) = postProject
-		{F6F9E130-356C-4AE9-AC1A-9FA3D1180419} = {F6F9E130-356C-4AE9-AC1A-9FA3D1180419}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestBaseCode", "TestBaseCode\TestBaseCode.vcxproj", "{9036DACE-E5E4-480B-9EFE-036FB9B8A081}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
