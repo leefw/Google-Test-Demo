@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BaseCode", "BaseCode\BaseCode.vcproj", "{F6F9E130-356C-4AE9-AC1A-9FA3D1180419}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RunBaseCode", "RunBaseCode\RunBaseCode.vcproj", "{E2451389-49ED-4FD3-B4D6-95428B3CB005}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F6F9E130-356C-4AE9-AC1A-9FA3D1180419} = {F6F9E130-356C-4AE9-AC1A-9FA3D1180419}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestBaseCode", "TestBaseCode\TestBaseCode.vcproj", "{9036DACE-E5E4-480B-9EFE-036FB9B8A081}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F6F9E130-356C-4AE9-AC1A-9FA3D1180419} = {F6F9E130-356C-4AE9-AC1A-9FA3D1180419}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6F9E130-356C-4AE9-AC1A-9FA3D1180419}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6F9E130-356C-4AE9-AC1A-9FA3D1180419}.Debug|Win32.Build.0 = Debug|Win32
+		{F6F9E130-356C-4AE9-AC1A-9FA3D1180419}.Release|Win32.ActiveCfg = Release|Win32
+		{F6F9E130-356C-4AE9-AC1A-9FA3D1180419}.Release|Win32.Build.0 = Release|Win32
+		{E2451389-49ED-4FD3-B4D6-95428B3CB005}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2451389-49ED-4FD3-B4D6-95428B3CB005}.Debug|Win32.Build.0 = Debug|Win32
+		{E2451389-49ED-4FD3-B4D6-95428B3CB005}.Release|Win32.ActiveCfg = Release|Win32
+		{E2451389-49ED-4FD3-B4D6-95428B3CB005}.Release|Win32.Build.0 = Release|Win32
+		{9036DACE-E5E4-480B-9EFE-036FB9B8A081}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9036DACE-E5E4-480B-9EFE-036FB9B8A081}.Debug|Win32.Build.0 = Debug|Win32
+		{9036DACE-E5E4-480B-9EFE-036FB9B8A081}.Release|Win32.ActiveCfg = Release|Win32
+		{9036DACE-E5E4-480B-9EFE-036FB9B8A081}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
